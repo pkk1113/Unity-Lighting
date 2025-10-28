@@ -93,8 +93,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 9570a4250105ea543adf042231b04577, type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 3d434f7ad34a577458e9d4946c5c3a08, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: b94b74f299fe51d4faf257a3be32baaa, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 317365584710bb84492b1f1d013f661e, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -773,14 +773,15 @@ MonoBehaviour:
   m_text: "\uC804\uC5ED\uC870\uBA85(GI - Mixed - Shadowmask)\n1. Hierarchy\uC758
     Directional Light\uC758 Mode\uB97C Mixed\uB85C \uD569\uB2C8\uB2E4.\n2. Lighting
     Settings\uC5D0\uC11C Realtime Lighting\uC740 \uB044\uACE0, Mixed Lighting \uC744
-    \uCF2D\uB2C8\uB2E4. \n3. Mixed Lighting\uC758 Lighting Mode\uB294 Shadowmask\uB85C
-    \uD569\uB2C8\uB2E4.  (\uADF8 \uD6C4 Generate)\n\nShadowmask:\n- \uC815\uC801\uC778
+    \uCF2D\uB2C8\uB2E4. \n3. Mixed Lighting\uC758 Lighting Mode\uB294 Subtractive\uB85C
+    \uD569\uB2C8\uB2E4.  (\uADF8 \uD6C4 Generate)\n\nSubtractive:\n- \uC815\uC801\uC778
     \uC624\uBE0C\uC81D\uD2B8 \uADF8\uB9BC\uC790\uB294 \uBBF8\uB9AC bake\uD569\uB2C8\uB2E4.\n-
-    \uB3D9\uC801\uC778 \uC624\uBE0C\uC81D\uD2B8\uB294 \uAC00\uAE4C\uC6B4 \uAC70\uB9AC\uB294
-    \uC2E4\uC2DC\uAC04 \uADF8\uB9BC\uC790, \uBA40\uBA74 base\uB97C \uC0AC\uC6A9\uD55C\uB2E4.\n-
-    \uB3D9\uC801\uC778 \uC624\uBE0C\uC81D\uD2B8\uB294 \uC2E4\uC2DC\uAC04 \uC870\uBA85\uC744
-    \uC900\uB2E4.\n\n\uC0AC\uC6A9 \uC608\uC2DC:\n- PC\uC6A9\n- \uC2E4\uB0B4\uC678
-    \uC870\uBA85 \uC870\uD569\uC774 \uC788\uB294 \uC52C "
+    \uB3D9\uC801\uC778 \uC624\uBE0C\uC81D\uD2B8\uB294 \uD558\uB098\uC758 Main Light\uB85C\uBD80\uD130
+    \uC2E4\uC2DC\uAC04 \uADF8\uB9BC\uC790\uB9CC\n- \uC2E4\uC2DC\uAC04 \uADF8\uB9BC\uC790\uB294
+    \uB2E8\uC0C9\uC73C\uB85C \uBCF4\uC774\uACE0, bake\uB41C \uC601\uC5ED\uACFC \uADF8\uB9BC\uC790\uAC00
+    \uC11E\uC774\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.\n\n\uC0AC\uC6A9:\n- \uBAA8\uBC14\uC77C\uC6A9\n-
+    \uB77C\uC774\uD2B8 \uACE0\uC815, \uCE90\uB9AD\uD130\uB9CC \uC6C0\uC9C1\uC774\uB294
+    \uC52C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ffff0b864ee96364d82ea4a697b1a2e7, type: 2}
   m_sharedMaterial: {fileID: 7305864755380608923, guid: ffff0b864ee96364d82ea4a697b1a2e7, type: 2}
