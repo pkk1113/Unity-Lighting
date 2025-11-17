@@ -60,11 +60,8 @@ public class DotweenHelper : MonoBehaviour
 
     private void OnDisable()
     {
-        if (m_sequence != null && m_sequence.IsActive())
-        {
-            m_sequence.Kill();
-        }
-
+        m_sequence?.Rewind();
+        m_sequence?.Kill();
         m_sequence = null;
     }
 }
